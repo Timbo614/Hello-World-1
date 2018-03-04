@@ -52,7 +52,8 @@ end;
 constructor THello.Create(TheOwner: TComponent);
 begin
   inherited Create(TheOwner);
-  WriteLn('Hello World');
+  WriteLn('Version 1.01');
+  WriteLn('Hello World & the Solar System!');
   ReadLn;
   StopOnException:=True;
 end;
