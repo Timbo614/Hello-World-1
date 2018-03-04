@@ -54,6 +54,7 @@ begin
   inherited Create(TheOwner);
   WriteLn('Version 1.01');
   WriteLn('Hello World & the Solar System!');
+  WriteLn('And why not the universe as well?';
   ReadLn;
   StopOnException:=True;
 end;
